@@ -1,3 +1,8 @@
+* Thu Jul 20 2023 Thorsten Leemhuis <fedora@leemhuis.info> [6.5.0-0.rc2.20230720gtbfa3037d.19.vanilla]
+- import ark-infra from ark-infra-mainline-latest (1c86892de21) (Thorsten Leemhuis)
+- Linux v6.5.0-0.rc2.20230720gtbfa3037d
+Resolves: 
+
 * Wed Jul 19 2023 Fedora Kernel Team <kernel-team@fedoraproject.org> [6.5.0-0.rc2.ccff6d117d8d.18.el127]
 - Fedora 6.5 configs part 1 (Justin M. Forbes)
 - fedora: enable CONFIG_ZYNQMP_IPI_MBOX as a builtin in pending-fedora (Patrick Talbert)
