@@ -1,3 +1,8 @@
+* Sat Jul 22 2023 Thorsten Leemhuis <fedora@leemhuis.info> [6.5.0-0.rc2.20230722gtd192f538.21.vanilla]
+- import ark-infra from ark-infra-mainline-latest (62554218646) (Thorsten Leemhuis)
+- Linux v6.5.0-0.rc2.20230722gtd192f538
+Resolves: 
+
 * Fri Jul 21 2023 Fedora Kernel Team <kernel-team@fedoraproject.org> [6.5.0-0.rc2.f7e3a1bafdea.20.el127]
 - redhat/configs: disable pre-UVC cameras for RHEL on aarch64 (Dean Nelson)
 - redhat/configs: enable CONFIG_MEDIA_SUPPORT for RHEL on aarch64 (Dean Nelson)
