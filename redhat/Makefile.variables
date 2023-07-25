@@ -36,7 +36,7 @@ BUILD_TARGET ?=
 # 'make dist-release'.  It should be set to "yes" if you expect to do
 # multiple updates and builds without bumping the base version, and no
 # when you expect every build to use a different base kernel version.
-BUMP_RELEASE:=yes
+BUMP_RELEASE:=no
 
 # This is the dist release suffix used in the package release, eg. .fc34,
 # .el8 etc. In a different branch this may be set to a fixed value.
@@ -96,7 +96,7 @@ PATCHLIST_URL ?= https://gitlab.com/knurd42/linux/-/commit
 #  kernel release. (This includes prepatch or "rc" releases.)
 # Set RELEASED_KERNEL to 0 when the upstream source tarball contains an
 #  unreleased kernel development snapshot.
-RELEASED_KERNEL:=0
+RELEASED_KERNEL:=1
 
 # This variable is used by the redhat/self-tests.  It should not be
 # considered stable and my be changed or removed without warning.
@@ -151,9 +151,9 @@ UPSTREAM_BRANCH ?= mainline
 # on a branch tracking upstream. This allows for generating rpms
 # based on untagged releases.
 ifeq ($(SPECGEMINI),0)
-  VERSION_ON_UPSTREAM:=1
+  VERSION_ON_UPSTREAM:= 1
 else
-  VERSION_ON_UPSTREAM:=0
+  VERSION_ON_UPSTREAM:= 1
 endif
 
 # Builds may include a s390x+zfcpdump arch build, which results in the build
