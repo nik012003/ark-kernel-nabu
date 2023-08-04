@@ -1,3 +1,8 @@
+* Fri Aug 04 2023 Thorsten Leemhuis <fedora@leemhuis.info> [6.5.0-0.rc4.20230804gtc1a515d3.32.vanilla]
+- import ark-infra from ark-infra-mainline-latest (43292dff958) (Thorsten Leemhuis)
+- Linux v6.5.0-0.rc4.20230804gtc1a515d3
+Resolves: 
+
 * Thu Aug 03 2023 Fedora Kernel Team <kernel-team@fedoraproject.org> [6.5.0-0.rc4.ec351c8f2e62.32.el127]
 - Description: Set config for Tegra234 pinctrl driver (Joel Slebodnick)
 - Update RPM Scriptlet for kernel-install Changes (Jonathan Steffan)
