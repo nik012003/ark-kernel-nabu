@@ -1,3 +1,8 @@
+* Wed Aug 09 2023 Thorsten Leemhuis <fedora@leemhuis.info> [6.5.0-0.rc5.20230809gt13b93720.37.vanilla]
+- import ark-infra from ark-infra-mainline-latest (5e948ba454b) (Thorsten Leemhuis)
+- Linux v6.5.0-0.rc5.20230809gt13b93720
+Resolves: 
+
 * Tue Aug 08 2023 Fedora Kernel Team <kernel-team@fedoraproject.org> [6.5.0-0.rc5.14f9643dc90a.37.el127]
 - redhat/configs: Texas Instruments INA3221 driver (Steve Best)
 - Linux v6.5.0-0.rc5.14f9643dc90a
