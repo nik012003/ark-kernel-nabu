@@ -1,6 +1,9 @@
-* Sun Aug 13 2023 Thorsten Leemhuis <fedora@leemhuis.info> [6.5.0-0.rc5.20230813gta785fd28.41.vanilla]
-- import ark-infra from ark-infra-mainline-latest (bc9f38a7ad9) (Thorsten Leemhuis)
-- Linux v6.5.0-0.rc5.20230813gta785fd28
+* Sun Aug 13 2023 Fedora Kernel Team <kernel-team@fedoraproject.org> [6.5.0-0.rc5.a785fd28d31f.42.el127]
+- all: run evaluate_configs to de-dupe merged aarch64 (Peter Robinson)
+- all: arm: merge the arm and arm/aarch64 (Peter Robinson)
+- fedora: remove ARMv7 AKA armhfp configurations (Peter Robinson)
+- fedora: remove ARMv7 AKA armhfp support (Peter Robinson)
+- Linux v6.5.0-0.rc5.a785fd28d31f
 Resolves: 
 
 * Sat Aug 12 2023 Fedora Kernel Team <kernel-team@fedoraproject.org> [6.5.0-0.rc5.f8de32cc060b.41.el127]
