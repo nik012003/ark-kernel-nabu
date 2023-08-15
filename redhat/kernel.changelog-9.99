@@ -1,3 +1,7 @@
+* Tue Aug 15 2023 Thorsten Leemhuis <fedora@leemhuis.info> [6.5.0-0.rc6.20230815gt91aa6c41.44.vanilla]
+- import ark-infra from ark-infra-mainline-latest (9117a79bf97) (Thorsten Leemhuis)
+Resolves: 
+
 * Tue Aug 15 2023 Fedora Kernel Team <kernel-team@fedoraproject.org> [6.5.0-0.rc6.91aa6c412d7f.44.el130]
 - CI: rawhide_release: switch to using script to push (Don Zickus)
 - redhat/self-test: Update self-test data (Prarit Bhargava)
