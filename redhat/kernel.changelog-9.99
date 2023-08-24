@@ -1,6 +1,8 @@
-* Wed Aug 23 2023 Thorsten Leemhuis <fedora@leemhuis.info> [6.5.0-0.rc7.20230823gt89bf6209.51.vanilla]
-- import ark-infra from ark-infra-mainline-latest (34e574dd07a) (Thorsten Leemhuis)
-- Linux v6.5.0-0.rc7.20230823gt89bf6209
+* Wed Aug 23 2023 Fedora Kernel Team <kernel-team@fedoraproject.org> [6.5.0-0.rc7.89bf6209cad6.52.eln130]
+- redhat/self-test: Remove rpmlint test (Prarit Bhargava)
+- Remove the armv7 config directory from Fedora again (Justin M. Forbes)
+- Enable CONFIG_EXPERT for both RHEL and Fedora (Justin M. Forbes)
+- Linux v6.5.0-0.rc7.89bf6209cad6
 Resolves: 
 
 * Tue Aug 22 2023 Fedora Kernel Team <kernel-team@fedoraproject.org> [6.5.0-0.rc7.f7757129e3de.51.eln130]
