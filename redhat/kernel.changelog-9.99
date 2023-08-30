@@ -1,3 +1,8 @@
+* Wed Aug 30 2023 Thorsten Leemhuis <fedora@leemhuis.info> [6.6.0-0.rc0.20230830gt6c1b980a.59.vanilla]
+- import ark-infra from ark-infra-mainline-latest (0f9c11019f0) (Thorsten Leemhuis)
+- Linux v6.6.0-0.rc0.20230830gt6c1b980a
+Resolves: 
+
 * Tue Aug 29 2023 Fedora Kernel Team <kernel-team@fedoraproject.org> [6.6.0-0.rc0.1c59d383390f.59.eln130]
 - all: x86: move wayward x86 specific config home (Peter Robinson)
 - all: de-dupe non standard config options (Peter Robinson)
