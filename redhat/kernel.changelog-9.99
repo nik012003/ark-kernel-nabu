@@ -1,3 +1,8 @@
+* Thu Aug 31 2023 Thorsten Leemhuis <fedora@leemhuis.info> [6.6.0-0.rc0.20230831gtb97d64c7.1.vanilla]
+- import ark-infra from ark-infra-mainline-latest (ee752e949aa) (Thorsten Leemhuis)
+- Linux v6.6.0-0.rc0.20230831gtb97d64c7
+Resolves: 
+
 * Wed Aug 30 2023 Fedora Kernel Team <kernel-team@fedoraproject.org> [6.6.0-0.rc0.6c1b980a7e79.1.eln130]
 - redhat: drop unneeded build-time dependency gcc-plugin-devel (Coiby Xu)
 - Reset RHEL release and trim changelog after rebase (Justin M. Forbes)
