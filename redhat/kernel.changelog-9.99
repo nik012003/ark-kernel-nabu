@@ -1,6 +1,8 @@
-* Thu Aug 31 2023 Thorsten Leemhuis <fedora@leemhuis.info> [6.6.0-0.rc0.20230831gtb97d64c7.1.vanilla]
-- import ark-infra from ark-infra-mainline-latest (61686f0b690) (Thorsten Leemhuis)
-- Linux v6.6.0-0.rc0.20230831gtb97d64c7
+* Thu Aug 31 2023 Fedora Kernel Team <kernel-team@fedoraproject.org> [6.6.0-0.rc0.b97d64c72259.2.eln130]
+- Fix tarball creation logic (Don Zickus)
+- redhat: bump libcpupower soname to match upstream (Patrick Talbert)
+- Turn on MEMFD_CREATE in pending as it is selected by CONFIG_TMPFS (Justin M. Forbes)
+- Linux v6.6.0-0.rc0.b97d64c72259
 Resolves: 
 
 * Wed Aug 30 2023 Fedora Kernel Team <kernel-team@fedoraproject.org> [6.6.0-0.rc0.6c1b980a7e79.1.eln130]
