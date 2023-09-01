@@ -1,3 +1,8 @@
+* Fri Sep 01 2023 Thorsten Leemhuis <fedora@leemhuis.info> [6.6.0-0.rc0.20230901gt99d99825.2.vanilla]
+- import ark-infra from ark-infra-mainline-latest (98162b10a56) (Thorsten Leemhuis)
+- Linux v6.6.0-0.rc0.20230901gt99d99825
+Resolves: 
+
 * Thu Aug 31 2023 Fedora Kernel Team <kernel-team@fedoraproject.org> [6.6.0-0.rc0.b97d64c72259.2.eln130]
 - Fix tarball creation logic (Don Zickus)
 - redhat: bump libcpupower soname to match upstream (Patrick Talbert)
