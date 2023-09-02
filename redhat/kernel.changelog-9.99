@@ -1,3 +1,8 @@
+* Sat Sep 02 2023 Thorsten Leemhuis <fedora@leemhuis.info> [6.6.0-0.rc0.20230902gt0468be89.3.vanilla]
+- import ark-infra from ark-infra-mainline-latest (41a423b6944) (Thorsten Leemhuis)
+- Linux v6.6.0-0.rc0.20230902gt0468be89
+Resolves: 
+
 * Fri Sep 01 2023 Fedora Kernel Team <kernel-team@fedoraproject.org> [6.6.0-0.rc0.99d99825fc07.3.eln130]
 - Disable tests for ELN realtime pipelines (Michael Hofmann)
 - New configs in mm/Kconfig (Fedora Kernel Team)
