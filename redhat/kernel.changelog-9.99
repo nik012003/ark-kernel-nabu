@@ -1,6 +1,6 @@
-* Sun Sep 03 2023 Thorsten Leemhuis <fedora@leemhuis.info> [6.6.0-0.rc0.20230903gt92901222.4.vanilla]
-- import ark-infra from ark-infra-mainline-latest (68eb61835b6) (Thorsten Leemhuis)
-- Linux v6.6.0-0.rc0.20230903gt92901222
+* Sun Sep 03 2023 Fedora Kernel Team <kernel-team@fedoraproject.org> [6.6.0-0.rc0.92901222f83d.5]
+- Flip CONFIG_VIDEO_V4L2_SUBDEV_API in pending RHEL due to mismatch (Justin M. Forbes)
+- Linux v6.6.0-0.rc0.92901222f83d
 Resolves: 
 
 * Sat Sep 02 2023 Fedora Kernel Team <kernel-team@fedoraproject.org> [6.6.0-0.rc0.0468be89b3fa.4]
