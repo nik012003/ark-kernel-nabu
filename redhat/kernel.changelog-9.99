@@ -1,3 +1,8 @@
+* Wed Sep 06 2023 Thorsten Leemhuis <fedora@leemhuis.info> [6.6.0-0.rc0.20230906gt65d6e954.7.vanilla]
+- import ark-infra from ark-infra-mainline-latest (4e7b17beb4a) (Thorsten Leemhuis)
+- Linux v6.6.0-0.rc0.20230906gt65d6e954
+Resolves: 
+
 * Tue Sep 05 2023 Fedora Kernel Team <kernel-team@fedoraproject.org> [6.6.0-0.rc0.3f86ed6ec0b3.7]
 - redhat/configs: Texas Instruments Inc. K3 multicore SoC architecture (Steve Best)
 - Linux v6.6.0-0.rc0.3f86ed6ec0b3
