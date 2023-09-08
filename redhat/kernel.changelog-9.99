@@ -1,3 +1,8 @@
+* Fri Sep 08 2023 Thorsten Leemhuis <fedora@leemhuis.info> [6.6.0-0.rc0.20230908gta48fa7ef.9.vanilla]
+- import ark-infra from ark-infra-mainline-latest (302aedd9984) (Thorsten Leemhuis)
+- Linux v6.6.0-0.rc0.20230908gta48fa7ef
+Resolves: 
+
 * Thu Sep 07 2023 Fedora Kernel Team <kernel-team@fedoraproject.org> [6.6.0-0.rc0.7ba2090ca64e.9]
 - Fix Fedora release scheduled job (Don Zickus)
 - Move squashfs to kernel-modules-core (Justin M. Forbes)
