@@ -1,5 +1,10 @@
-* Mon Sep 11 2023 Thorsten Leemhuis <fedora@leemhuis.info> [6.6.0-0.rc1.12.vanilla]
-- import ark-infra from ark-infra-mainline-latest (721889e7f8b) (Thorsten Leemhuis)
+* Tue Sep 12 2023 Fedora Kernel Team <kernel-team@fedoraproject.org> [6.6.0-0.rc1.14]
+- New configs in drivers/media (Fedora Kernel Team)
+- redhat/docs: Add a mention of bugzilla for bugs (Prarit Bhargava)
+- Fix the fixup of Fedora release (Don Zickus)
+Resolves: 
+
+* Mon Sep 11 2023 Fedora Kernel Team <kernel-team@fedoraproject.org> [6.6.0-0.rc1.13]
 - Linux v6.6.0-0.rc1
 Resolves: 
 
