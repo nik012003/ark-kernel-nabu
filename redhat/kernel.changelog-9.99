@@ -1,3 +1,8 @@
+* Thu Sep 28 2023 Thorsten Leemhuis <fedora@leemhuis.info> [6.6.0-0.rc3.20230928gt633b47cb.28.vanilla]
+- import ark-infra from ark-infra-mainline-latest (d0f268ed022) (Thorsten Leemhuis)
+- Linux v6.6.0-0.rc3.20230928gt633b47cb
+Resolves: 
+
 * Wed Sep 27 2023 Fedora Kernel Team <kernel-team@fedoraproject.org> [6.6.0-0.rc3.0e945134b680.28]
 - kernel.spec: adjust build option comment (Michael Hofmann)
 - kernel.spec: allow to enable arm64_16k variant (Michael Hofmann)
