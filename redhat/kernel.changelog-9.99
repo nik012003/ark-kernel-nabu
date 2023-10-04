@@ -1,3 +1,8 @@
+* Wed Oct 04 2023 Thorsten Leemhuis <fedora@leemhuis.info> [6.6.0-0.rc4.20231004gtcbf3a2cb.34.vanilla]
+- import ark-infra from ark-infra-mainline-latest (7b07d69cb19) (Thorsten Leemhuis)
+- Linux v6.6.0-0.rc4.20231004gtcbf3a2cb
+Resolves: 
+
 * Tue Oct 03 2023 Fedora Kernel Team <kernel-team@fedoraproject.org> [6.6.0-0.rc4.ce36c8b14987.34]
 - common: aarch64: enable NXP Flex SPI (Peter Robinson)
 - Linux v6.6.0-0.rc4.ce36c8b14987
