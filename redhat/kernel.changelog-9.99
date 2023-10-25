@@ -1,3 +1,8 @@
+* Wed Oct 25 2023 Thorsten Leemhuis <fedora@leemhuis.info> [6.6.0-0.rc7.20231025gt4f828701.55.vanilla]
+- import ark-infra from ark-infra-mainline-latest (8e46922f8de) (Thorsten Leemhuis)
+- Linux v6.6.0-0.rc7.20231025gt4f828701
+Resolves: 
+
 * Tue Oct 24 2023 Fedora Kernel Team <kernel-team@fedoraproject.org> [6.6.0-0.rc7.d88520ad73b7.55]
 - redhat: remove pending-rhel CONFIG_XFS_ASSERT_FATAL file (Patrick Talbert)
 - New configs in fs/xfs (Fedora Kernel Team)
