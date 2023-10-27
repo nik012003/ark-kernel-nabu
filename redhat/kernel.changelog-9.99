@@ -1,6 +1,7 @@
-* Thu Oct 26 2023 Thorsten Leemhuis <fedora@leemhuis.info> [6.6.0-0.rc7.20231026gt611da07b.56.vanilla]
-- import ark-infra from ark-infra-mainline-latest (4a84fe97816) (Thorsten Leemhuis)
-- Linux v6.6.0-0.rc7.20231026gt611da07b
+* Thu Oct 26 2023 Fedora Kernel Team <kernel-team@fedoraproject.org> [6.6.0-0.rc7.611da07b89fd.57]
+- Updated Fedora configs (Justin M. Forbes)
+- Turn on UFSHCD for Fedora x86 (Justin M. Forbes)
+- Linux v6.6.0-0.rc7.611da07b89fd
 Resolves: 
 
 * Wed Oct 25 2023 Fedora Kernel Team <kernel-team@fedoraproject.org> [6.6.0-0.rc7.4f82870119a4.56]
