@@ -1,3 +1,8 @@
+* Fri Nov 03 2023 Thorsten Leemhuis <fedora@leemhuis.info> [6.7.0-0.rc0.20231103gt8f6f76a6.4.vanilla]
+- import ark-infra from ark-infra-mainline-latest (18dbb2fb527) (Thorsten Leemhuis)
+- Linux v6.7.0-0.rc0.20231103gt8f6f76a6
+Resolves: 
+
 * Thu Nov 02 2023 Fedora Kernel Team <kernel-team@fedoraproject.org> [6.7.0-0.rc0.21e80f3841c0.4]
 - Add clk-fractional-divider_test to mod-internal.list (Thorsten Leemhuis)
 - Add gso_test to mod-internal.list (Thorsten Leemhuis)
