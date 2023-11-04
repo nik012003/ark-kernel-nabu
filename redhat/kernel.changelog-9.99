@@ -1,3 +1,8 @@
+* Sat Nov 04 2023 Thorsten Leemhuis <fedora@leemhuis.info> [6.7.0-0.rc0.20231104gt90b0c2b2.7.vanilla]
+- import ark-infra from ark-infra-mainline-latest (addcacabc8d) (Thorsten Leemhuis)
+- Linux v6.7.0-0.rc0.20231104gt90b0c2b2
+Resolves: 
+
 * Fri Nov 03 2023 Fedora Kernel Team <kernel-team@fedoraproject.org> [6.7.0-0.rc0.8f6f76a6a29f.7]
 - Add mean_and_variance_test to mod-internal.list (Justin M. Forbes)
 - Add cfg80211-tests and mac80211-tests to mod-internal.list (Justin M. Forbes)
