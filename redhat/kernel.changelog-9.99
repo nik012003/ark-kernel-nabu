@@ -1,3 +1,8 @@
+* Wed Nov 08 2023 Thorsten Leemhuis <fedora@leemhuis.info> [6.7.0-0.rc0.20231108gt30523014.10.vanilla]
+- import ark-infra from ark-infra-mainline-latest (6ce41e1f7eb) (Thorsten Leemhuis)
+- Linux v6.7.0-0.rc0.20231108gt30523014
+Resolves: 
+
 * Tue Nov 07 2023 Fedora Kernel Team <kernel-team@fedoraproject.org> [6.7.0-0.rc0.be3ca57cfb77.10]
 - Turn off BPF_SYSCALL in pending for zfcpdump (Justin M. Forbes)
 - Linux v6.7.0-0.rc0.be3ca57cfb77
