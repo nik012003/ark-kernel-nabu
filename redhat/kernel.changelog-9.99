@@ -1,6 +1,8 @@
-* Wed Nov 08 2023 Thorsten Leemhuis <fedora@leemhuis.info> [6.7.0-0.rc0.20231108gt30523014.10.vanilla]
-- import ark-infra from ark-infra-mainline-latest (6ce41e1f7eb) (Thorsten Leemhuis)
-- Linux v6.7.0-0.rc0.20231108gt30523014
+* Wed Nov 08 2023 Fedora Kernel Team <kernel-team@fedoraproject.org> [6.7.0-0.rc0.305230142ae0.11]
+- Turn CONFIG_SND_SOC_INTEL_AVS_MACH_RT5514 on for Fedora x86 (Jason Montleon)
+- kernel/rh_messages.c: Mark functions as possibly unused (Prarit Bhargava)
+- Add snd-hda-cirrus-scodec-test to mod-internal.list (Scott Weaver)
+- Linux v6.7.0-0.rc0.305230142ae0
 Resolves: 
 
 * Tue Nov 07 2023 Fedora Kernel Team <kernel-team@fedoraproject.org> [6.7.0-0.rc0.be3ca57cfb77.10]
