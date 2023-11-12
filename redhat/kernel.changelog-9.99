@@ -1,3 +1,8 @@
+* Sun Nov 12 2023 Thorsten Leemhuis <fedora@leemhuis.info> [6.7.0-0.rc0.20231112gt1b907d05.14.vanilla]
+- import ark-infra from ark-infra-mainline-latest (94aa0aee470) (Thorsten Leemhuis)
+- Linux v6.7.0-0.rc0.20231112gt1b907d05
+Resolves: 
+
 * Sat Nov 11 2023 Fedora Kernel Team <kernel-team@fedoraproject.org> [6.7.0-0.rc0.3ca112b71f35.14]
 - Flip CONFIG_NVME_AUTH to m in pending (Justin M. Forbes)
 - Linux v6.7.0-0.rc0.3ca112b71f35
