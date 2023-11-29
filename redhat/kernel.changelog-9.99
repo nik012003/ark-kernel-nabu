@@ -1,6 +1,7 @@
-* Tue Nov 28 2023 Thorsten Leemhuis <fedora@leemhuis.info> [6.7.0-0.rc3.20231128gtdf60cee2.28.vanilla]
-- import ark-infra from ark-infra-mainline-latest (a56263e739b) (Thorsten Leemhuis)
-- Linux v6.7.0-0.rc3.20231128gtdf60cee2
+* Tue Nov 28 2023 Fedora Kernel Team <kernel-team@fedoraproject.org> [6.7.0-0.rc3.df60cee26a2e.29]
+- Add drm_exec_test to mod-internal.list for depmod to succeed (Mika Penttilä)
+- RHEL 9.4 DRM backport (upto v6.6 kernel), sync Kconfigs (Mika Penttilä)
+- Linux v6.7.0-0.rc3.df60cee26a2e
 Resolves: 
 
 * Mon Nov 27 2023 Fedora Kernel Team <kernel-team@fedoraproject.org> [6.7.0-0.rc3.28]
