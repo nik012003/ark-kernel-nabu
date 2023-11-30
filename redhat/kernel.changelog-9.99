@@ -1,6 +1,8 @@
-* Wed Nov 29 2023 Thorsten Leemhuis <fedora@leemhuis.info> [6.7.0-0.rc3.20231129gt18d46e76.29.vanilla]
-- import ark-infra from ark-infra-mainline-latest (3815026901b) (Thorsten Leemhuis)
-- Linux v6.7.0-0.rc3.20231129gt18d46e76
+* Wed Nov 29 2023 Fedora Kernel Team <kernel-team@fedoraproject.org> [6.7.0-0.rc3.18d46e76d7c2.30]
+- Enable cryptographic acceleration config flags for PowerPC (Mamatha Inamdar)
+- Also make vmlinuz-virt.efi world readable (Zbigniew Jędrzejewski-Szmek)
+- Drop custom mode for System.map file (Zbigniew Jędrzejewski-Szmek)
+- Linux v6.7.0-0.rc3.18d46e76d7c2
 Resolves: 
 
 * Tue Nov 28 2023 Fedora Kernel Team <kernel-team@fedoraproject.org> [6.7.0-0.rc3.df60cee26a2e.29]
