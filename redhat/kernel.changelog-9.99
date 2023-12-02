@@ -1,6 +1,12 @@
-* Fri Dec 01 2023 Thorsten Leemhuis <fedora@leemhuis.info> [6.7.0-0.rc3.20231201gt994d5c58.31.vanilla]
-- import ark-infra from ark-infra-mainline-latest (df32a30b331) (Thorsten Leemhuis)
-- Linux v6.7.0-0.rc3.20231201gt994d5c58
+* Fri Dec 01 2023 Fedora Kernel Team <kernel-team@fedoraproject.org> [6.7.0-0.rc3.994d5c58e50e.32]
+- ext4: Mark mounting fs-verity filesystems as tech-preview (Alexander Larsson)
+- erofs: Add tech preview markers at mount (Alexander Larsson)
+- Enable fs-verity (Alexander Larsson)
+- Enable erofs (Alexander Larsson)
+- aarch64: enable uki (Gerd Hoffmann)
+- redhat: enable CONFIG_SND_SOC_INTEL_SOF_DA7219_MACH as a module for x86 (Patrick Talbert)
+- Turn CONFIG_MFD_CS42L43_SDW on for RHEL (Justin M. Forbes)
+- Linux v6.7.0-0.rc3.994d5c58e50e
 Resolves: 
 
 * Thu Nov 30 2023 Fedora Kernel Team <kernel-team@fedoraproject.org> [6.7.0-0.rc3.3b47bc037bd4.31]
