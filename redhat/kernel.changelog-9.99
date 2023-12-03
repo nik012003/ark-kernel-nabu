@@ -1,3 +1,8 @@
+* Sun Dec 03 2023 Thorsten Leemhuis <fedora@leemhuis.info> [6.7.0-0.rc3.20231203gt968f35f4.33.vanilla]
+- import ark-infra from ark-infra-mainline-latest (4b26b67bf6f) (Thorsten Leemhuis)
+- Linux v6.7.0-0.rc3.20231203gt968f35f4
+Resolves: 
+
 * Sat Dec 02 2023 Fedora Kernel Team <kernel-team@fedoraproject.org> [6.7.0-0.rc3.815fb87b7530.33]
 - redhat: disable iptables-legacy compatibility layer (Florian Westphal)
 - redhat: disable dccp conntrack support (Florian Westphal)
