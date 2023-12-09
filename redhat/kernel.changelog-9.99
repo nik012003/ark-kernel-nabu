@@ -1,3 +1,8 @@
+* Sat Dec 09 2023 Thorsten Leemhuis <fedora@leemhuis.info> [6.7.0-0.rc4.20231209gtf2e8a57e.38.vanilla]
+- import ark-infra from ark-infra-mainline-latest (d62749eb540) (Thorsten Leemhuis)
+- Linux v6.7.0-0.rc4.20231209gtf2e8a57e
+Resolves: 
+
 * Fri Dec 08 2023 Fedora Kernel Team <kernel-team@fedoraproject.org> [6.7.0-0.rc4.5e3f5b81de80.38]
 - Turn on CONFIG_SECURITY_DMESG_RESTRICT for Fedora (Justin M. Forbes)
 - Linux v6.7.0-0.rc4.5e3f5b81de80
