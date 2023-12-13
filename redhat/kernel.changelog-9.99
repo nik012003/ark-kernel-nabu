@@ -1,3 +1,8 @@
+* Wed Dec 13 2023 Thorsten Leemhuis <fedora@leemhuis.info> [6.7.0-0.rc5.20231213gt88035e56.42.vanilla]
+- import ark-infra from ark-infra-mainline-latest (46d45bd4140) (Thorsten Leemhuis)
+- Linux v6.7.0-0.rc5.20231213gt88035e56
+Resolves: 
+
 * Tue Dec 12 2023 Fedora Kernel Team <kernel-team@fedoraproject.org> [6.7.0-0.rc5.26aff849438c.42]
 - redhat: enable the kfence test (Nico Pache)
 - Linux v6.7.0-0.rc5.26aff849438c
