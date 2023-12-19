@@ -1,5 +1,7 @@
-* Mon Dec 18 2023 Thorsten Leemhuis <fedora@leemhuis.info> [6.7.0-0.rc6.47.vanilla]
-- import ark-infra from ark-infra-mainline-latest (dd958da7bd7) (Thorsten Leemhuis)
+* Mon Dec 18 2023 Fedora Kernel Team <kernel-team@fedoraproject.org> [6.7.0-0.rc6.48]
+- Disable accel drivers for Fedora x86 (Kate Hsuan)
+- redhat: scripts: An automation script for disabling unused driver for x86 (Kate Hsuan)
+- Fix up Fedora LJCA configs and filters (Justin M. Forbes)
 - Linux v6.7.0-0.rc6
 Resolves: 
 
