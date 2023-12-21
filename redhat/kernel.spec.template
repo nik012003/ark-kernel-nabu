@@ -826,7 +826,7 @@ BuildRequires: tpm2-tools
 Source0: linux-%{tarfile_release}.tar.xz
 
 Source1: Makefile.rhelver
-
+Source2: kernel.changelog.xz
 
 # Name of the packaged file containing signing key
 %ifarch ppc64le
@@ -2769,8 +2769,9 @@ InitBuildVars
 %ifarch aarch64
 %global perf_build_extra_opts CORESIGHT=1
 %endif
+# LIBBPF_DYNAMIC=1 temporarily removed from the next command, it breaks the build on f39 and 38
 %global perf_make \
-  %{__make} %{?make_opts} EXTRA_CFLAGS="${RPM_OPT_FLAGS}" LDFLAGS="%{__global_ldflags} -Wl,-E" %{?cross_opts} -C tools/perf V=1 NO_PERF_READ_VDSO32=1 NO_PERF_READ_VDSOX32=1 WERROR=0 NO_LIBUNWIND=1 HAVE_CPLUS_DEMANGLE=1 NO_GTK2=1 NO_STRLCPY=1 NO_BIONIC=1 LIBBPF_DYNAMIC=1 LIBTRACEEVENT_DYNAMIC=1 %{?perf_build_extra_opts} prefix=%{_prefix} PYTHON=%{__python3}
+  %{__make} %{?make_opts} EXTRA_CFLAGS="${RPM_OPT_FLAGS}" LDFLAGS="%{__global_ldflags} -Wl,-E" %{?cross_opts} -C tools/perf V=1 NO_PERF_READ_VDSO32=1 NO_PERF_READ_VDSOX32=1 WERROR=0 NO_LIBUNWIND=1 HAVE_CPLUS_DEMANGLE=1 NO_GTK2=1 NO_STRLCPY=1 NO_BIONIC=1 LIBTRACEEVENT_DYNAMIC=1 %{?perf_build_extra_opts} prefix=%{_prefix} PYTHON=%{__python3}
 %if %{with_perf}
 # perf
 # make sure check-headers.sh is executable
@@ -2985,6 +2986,7 @@ docdir=$RPM_BUILD_ROOT%{_datadir}/doc/kernel-doc-%{specversion}-%{pkgrelease}
 # copy the source over
 mkdir -p $docdir
 tar -h -f - --exclude=man --exclude='.*' -c Documentation | tar xf - -C $docdir
+install -m644 %{SOURCE2} $docdir/
 
 # with_doc
 %endif
@@ -3526,6 +3528,7 @@ fi\
 %{_datadir}/doc/kernel-doc-%{specversion}-%{pkgrelease}/Documentation/*
 %dir %{_datadir}/doc/kernel-doc-%{specversion}-%{pkgrelease}/Documentation
 %dir %{_datadir}/doc/kernel-doc-%{specversion}-%{pkgrelease}
+%{_datadir}/doc/kernel-doc-%{specversion}-%{pkgrelease}/kernel.changelog.xz
 %endif
 
 %if %{with_perf}

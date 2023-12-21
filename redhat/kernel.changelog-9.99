@@ -1,6 +1,7 @@
-* Thu Dec 21 2023 Thorsten Leemhuis <fedora@leemhuis.info> [6.7.0-0.rc6.20231221gt1bf5c892.50.vanilla]
-- import ark-infra from ark-infra-mainline-latest (19776c13ed2) (Thorsten Leemhuis)
-- Linux v6.7.0-0.rc6.20231221gt1bf5c892
+* Thu Dec 21 2023 Fedora Kernel Team <kernel-team@fedoraproject.org> [6.7.0-0.rc6.a4aebe936554.51]
+- redhat: ship all the changelog from source git into kernel-doc (Herton R. Krzesinski)
+- redhat: create an empty changelog file when changing its name (Herton R. Krzesinski)
+- Linux v6.7.0-0.rc6.a4aebe936554
 Resolves: 
 
 * Wed Dec 20 2023 Fedora Kernel Team <kernel-team@fedoraproject.org> [6.7.0-0.rc6.55cb5f43689d.50]

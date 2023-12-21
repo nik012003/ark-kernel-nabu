@@ -72,7 +72,6 @@ SOURCES:=$(RPM)/SOURCES
 TESTPATCH:=$(REDHAT)/linux-kernel-test.patch
 CHANGELOG_EXT:=changelog-$(RHEL_MAJOR).$(RHEL_MINOR)
 SPECCHANGELOG:=$(SPECPACKAGE_NAME).$(CHANGELOG_EXT)
-CHANGELOG_PREV_EXT:=changelog-$(RHEL_MAJOR).$(shell expr $(RHEL_MINOR) - 1)
 ARCH_LIST=aarch64 ppc64le s390x x86_64
 
 # save some user selectable values to know later if we can override them
@@ -651,13 +650,8 @@ _setup-source: dist-git-version-check
 	fi
 	@cp $(REDHAT)/$(SPECFILE).template $(SOURCES)/$(SPECFILE)
 	@if [ ! -e  $(REDHAT)/$(SPECCHANGELOG) ]; then \
-		if [ -e $(SPECPACKAGE_NAME).$(CHANGELOG_PREV_EXT) ]; then \
-			echo "Creating $(SPECCHANGELOG) as copy of $(CHANGELOG_PREV_EXT)"; \
-			cp $(REDHAT)/$(SPECPACKAGE_NAME).$(CHANGELOG_PREV_EXT) $(REDHAT)/$(SPECCHANGELOG); \
-		else \
-			echo "Creating $(SPECCHANGELOG) as copy of $(REDHAT)/kernel.$(CHANGELOG_EXT)"; \
-			cp $(REDHAT)/kernel.$(CHANGELOG_EXT) $(SPECCHANGELOG); \
-		fi; \
+		echo "Creating an empty $(SPECCHANGELOG) since it does not exist yet"; \
+		touch $(REDHAT)/$(SPECCHANGELOG); \
 	fi
 	@if [ -z "$(RHSELFTESTDATA)" ]; then \
 		cp $(REDHAT)/$(SPECCHANGELOG) $(SOURCES)/$(SPECCHANGELOG); \
@@ -712,6 +706,8 @@ sources-rh: $(TARBALL) generate-testpatch-tmp setup-source dist-configs-check
 		kernel-local \
 		dracut-virt.conf \
 		$(SOURCES)/
+	@cat $$(ls -1 $(SPECPACKAGE_NAME).changelog-* | sort -t '.' -k 3 -n -r) \
+		| xz > $(SOURCES)/kernel.changelog.xz
 	@if [ "$(RELEASED_KERNEL)" -ne 0 ]; then \
 		cp keys/redhatsecureboot{301,501,ca5,ca1}.cer $(SOURCES)/; \
 		cp keys/secureboot_{ppc,s390}.cer $(SOURCES)/; \
