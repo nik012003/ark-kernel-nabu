@@ -1238,18 +1238,18 @@ analysing the logical and timing behavior of Linux.
 
 %if %{with_bpftool}
 
-%define bpftoolversion %%SPECBPFTOOLVERSION%%
+##define bpftoolversion %%SPECBPFTOOLVERSION%%
 
 %package -n bpftool
 Summary: Inspection and simple manipulation of eBPF programs and maps
-Version: %{bpftoolversion}
+# Version: %{bpftoolversion}
 %description -n bpftool
 This package contains the bpftool, which allows inspection and simple
 manipulation of eBPF programs and maps.
 
 %package -n bpftool-debuginfo
 Summary: Debug information for package bpftool
-Version: %{bpftoolversion}
+# Version: %{bpftoolversion}
 Group: Development/Debug
 Requires: %{name}-debuginfo-common-%{_target_cpu} = %{specrpmversion}-%{release}
 AutoReqProv: no
