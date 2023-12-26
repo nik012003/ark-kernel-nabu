@@ -1,3 +1,8 @@
+* Tue Dec 26 2023 Thorsten Leemhuis <fedora@leemhuis.info> [6.7.0-0.rc7.20231226gtfbafc3e6.55.vanilla]
+- import ark-infra from ark-infra-mainline-latest (29e05cef658) (Thorsten Leemhuis)
+- Linux v6.7.0-0.rc7.20231226gtfbafc3e6
+Resolves: 
+
 * Mon Dec 25 2023 Fedora Kernel Team <kernel-team@fedoraproject.org> [6.7.0-0.rc7.55]
 - Enable sound for a line of Huawei laptops (TomZanna)
 Resolves: 
